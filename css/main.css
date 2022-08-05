@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: sans-serif;
+    background-color: #EEEEED;
+}
+
+a{
+    text-decoration: none;
+    color: #333333;
+}
+
+h1, h2, h3{
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 10px 0;
+}
+
+#navbar{
+    background-color: #333333;
+    overflow: auto;
+}
+
+#navbar a{
+    color: #fff;
+    /* list-style-type: none; */
+}
+
+#navbar h1{
+    padding-top: 20px;
+    float: left;
+}
+
+#navbar ul{
+    float: right;
+    list-style: none;
+}
+
+#navbar ul li{
+    display: inline;
+}
+
+#navbar ul li a{
+    display: inline-block;
+    padding: 24px;
+}
+
+#navbar ul li a:hover, #navbar ul li a.active{
+    background-color:  #444444;
+    color: #f7c09a;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.text-primary{
+    color: #f8c08a ;
+}
+
+.fsize{
+    font-size: 20px;
+}
+.btn{
+    display:inline-block;
+    font-size: 16px;
+    color: #fff;
+    background-color: #333333;
+    cursor: pointer;
+    padding:10px 13px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn:hover{
+    background-color:#f7c08a ;
+    color: #333333;
+}
+
+.btn-light{
+    background-color: #f4f4f4;
+    color: #333333;
+}
+
+.btn-dark{
+    background-color: #333333;
+    color: #fff;
+}
+
+.bg-dark{
+    background-color: #333333;
+    color: #fff;
+}
+
+.bg-light{
+    background-color: #f4f4f4;
+    color: #333333;
+}
+
+.bg-primary{
+    background-color: #f7c08a;
+    color: #333333;
+}
+
+.clr{
+    clear: both;
+}
+
+#showcase{
+    background-image: url(../images/bath-clean-holiday-hotel-221457.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;    
+    height: 60vh;
+}
+
+#showcase .showcase-content{
+    color: #fff;
+    text-align: center;
+    padding-top: 130px;
+}
+
+#showcase h1{
+    font-size: 60px;
+}
+
+#showcase p{
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+#main .section-left{
+    width: 50%;
+    height: 40vh;
+    float: left;
+    background-image: url('../images/woman-leaning-on-handrail-in-room-1838554.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#main .section-right{
+    width: 50%;
+    height: 40vh;
+    float: right;
+    background-color: #333333;
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+    
+}
+
+#main .section-right p{
+    padding-bottom: 25px;
+}
+
+#main .section-right a{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    color: black;
+    border: none;
+}
+
+#main .section-right a:hover{
+    background-color: #f7c08a;
+    color: #fff;
+}
+
+#features .box{
+    float: left;
+    width: 33.3%;
+    padding: 20px 50px;
+    background-color: #fff;
+   
+}
+.clr{
+    clear: both;
+}
+
+.footer{
+    background-color: #333333;
+    padding: 1px;
+}
+
+.footer p{
+    text-align: center;
+    color: #fff;
+    padding: 25px 0;
+
+}
+
+#about{
+    background-color: #E2E2E1;
+    width: 100%;
+    height: 45vh;
+   
+}
+
+#about .about-left{
+    float: left;
+    width:50%;
+    padding:20px 0;
+
+}
+
+#about .about-right{
+    float: right;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 17px 50px;
+}
+
+#about img{
+    width: 400px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.clr{
+    clear: both;
+}
+
+#guests {
+    width: 100%;
+    height:550px;
+    background-image: url("../images/Therme\ Vals\ -\ バルス・テルメホテル.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#guests h1{
+    text-align: center;
+    color: #fff;
+    padding-top:6rem;
+    margin-top: -20px;
+}
+
+#guests .wrapper{
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+#guests .wrapper img{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+#guests .wrapper p{
+    line-height: 27px ;
+}
+
+#ContactUs{
+    padding: 20px 0;
+}
+
+#ContactUs h1{
+    font-size: 32px;
+}
+
+#ContactUs .form-group{
+    margin-bottom: 20px;
+
+}
+
+#ContactUs .form-group label{
+    margin-bottom: 5px;
+    display: block;
+    font-weight: 600;
+}
+
+#ContactUs .form-group input ,
+#ContactUs .form-group textarea{
+    width: 100%;
+    padding: 10px;
+    background-color: #EEEEED;
+    border: 2px solid #dddddd;
+    border-radius: 5px;
+}
+
+
+
